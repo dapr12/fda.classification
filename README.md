@@ -25,10 +25,12 @@ Windows users have to first install [Rtools](http://cran.r-project.org/bin/windo
 + [fda] (http://cran.r-project.org/web/packages/fda/index.html)
 + [splines] (http://cran.r-project.org/web/packages/splines/index.html)
 + [MASS] (http://cran.r-project.org/web/packages/MASS/index.html)
++ [KernSmooth] (http://cran.r-project.org/web/packages/KernSmooth/index.html)
++ [ks] (http://cran.r-project.org/web/packages/ks/index.html)
 
 
 For examples
-+ [fdaExamples] (https://github.com/dapr12/fdaexamples)
++ [fdaExamples] (https://github.com/dapr12/fdaexamples/blob/master/fdaexamples.R)
 
 
 ### Functions currently available
