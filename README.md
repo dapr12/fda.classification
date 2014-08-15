@@ -1,4 +1,4 @@
- `fda.classification`
+  `fda.classification`
 
 
 ## About
@@ -28,7 +28,7 @@ Windows users have to first install [Rtools](http://cran.r-project.org/bin/windo
 
 
 For examples
-+ [fdaExamples] (https://github.com/fdaexamples)
++ [fdaExamples] (https://github.com/dapr12/fdaexamples)
 
 
 ### Functions currently available
@@ -82,9 +82,9 @@ Medianfd(Smoothfda)
 ```
 
 #### D-Plot
-
-dpout(Eg$val, plotting)
-
+```r
+dpout(Eigenvalues, plotting)
+```
 
 
 #### pcafd
@@ -118,7 +118,7 @@ varfd(Smoothfda)
 #### Classification 
 
 ```r
-classfd(Classlearn, train, test, 1 )
+classfd(Classlearn, train, test)
 ```
 
 
@@ -134,6 +134,4 @@ pdfclasf(data, test, indClass0, indClass1, indtest )
 ```r
 simulatefda( nsamples, ndrawn, rangeval, mean, sigma )
 ```
-
-
 
