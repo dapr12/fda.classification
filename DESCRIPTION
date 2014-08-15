@@ -1,0 +1,22 @@
+Package: fda.classification
+Title: Functional Data Analysis and Functional Classification for Statistical
+    Computing
+Version: 0.1
+Date: 2014-05-05
+Authors.R: c(person("Diego Andres Perez Ruiz",role="aut", email =
+    "diego.a.perez.r@gmail.com"), person("Peter Foster",role="ctb"))
+Description: The R package fda.classification carries out exploratory and
+    descriptive analysis of functional data, detection outlier, mean and median
+    curve, functions to compute classification methods and simulation of
+    functional data.
+Depends:
+    R (>= 3.0.2)
+License: 
+LazyData: true
+Author: Diego Andres Perez Ruiz [aut],
+    Peter Foster [ctb]
+Maintainer: Diego Andres Perez Ruiz <diego.a.perez.r@gmail.com>
+NeedsCompilation: yes
+Repository: CRAN
+Suggests:
+    testthat
