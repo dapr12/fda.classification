@@ -258,20 +258,7 @@ CVmplsr=function(Ddata,Y,m)
 
 mplsr<- function(X, Y, K = 5)
 {
-  # Copyright (c) October 1993, Mike Denham.
-  # Comments and Complaints to: snsdenhm@reading.ac.uk
-  #
-  # Orthogonal Scores Algorithm for PLS (Martens and Naes, pp. 121--123)
-  #
-  # X: predictors (matrix)
-  #
-  # Y: multivariate response (matrix)
-  #
-  # K: The number of PLS factors in the model which must be less than or
-  #    equal to the  rank of X.
-  #
-  # Returned Value is the vector of PLS regression coefficients
-  #
+
   tol <- 1e-10
   X <- as.matrix(X)
   Y <- as.matrix(Y)
